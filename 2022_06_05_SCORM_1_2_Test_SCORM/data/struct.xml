@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <settings showmenu="1" closedpath="1" id="http://esleave.com/prj_1523525362015en" completionon="ASSESSMENT" startwith="module01" def_lang="en" lang="en" audio="0" bgimg="" bgcol="padding-box rgb(244, 244, 244)" crs_width="896" crs_height="640" topbar="3" bottombar="2" pgtitle="0" sniffer="0" skin="skin0" oncomplete="Completed" onpass="Passed" onfail="Failed" crs_font="Trebuchet MS" bgrepeat="" topbarH="93" btmbarH="0" _ver="v6" c_ver="v3" indxpos="1" crs_mrgL="0" crs_mrgR="0" indxlist="2" crs_fonts="16" bgalign="" bgsize="" fixbars="1" crs_fillmode="1" crs_orient="0" crs_hasswipe="1" allowtab="0" vo_assist="0" indxnum="1" bgexpand="0" htmldrp="0" lms_mode="1_2" lcl_mod="0" role="" crs_render="0" crs_perspect="600" crs_preload="0" crs_pause="1" crs_select="0" crs_dfillmode="1" crs_scalemode="0" taborder="0" vo_page="1" crs_animin="" crs_animout="" crs_animmode="2" sendscore="0" kal="1" pas="0" csimg=",i46" lms_cmt="0" ldr="0" defacs="1" as_cnt="0" ind_modprg="0" toplyr="ftr" rl_prg="1"/>
+  <modules>
+    <module id="menu" type="MENU">
+      <page id="p01" nxt="" bck="" trk="0" indx="1" type="0" navigbar="0" scrollbar="1" bgimg="" topbar="1" ttlbar="0" btmbar="0" bgA="left top" bgR="repeat" bgS="" tfrm="l_menu" bfrm="" hM="0" ytv="0" transid="" showplay="null" nomrg="0" pg_in="" pg_out="" trans="zkbym" shwC="0" inav="0">
+        <node lang="en" images="" audio="" fbx="" video=""/>
+      </page>
+      <page id="p02" nxt="" bck="" trk="0" indx="0" type="" navigbar="0" scrollbar="0" bgimg="" ttlbar="0" tfrm="" bfrm="" showplay="null" nomrg="0" topbar="1" btmbar="1" bgA="left top" bgR="repeat" bgS="" hM="0" ytv="0" transid="" pg_in="" pg_out="" trans="xtfdw" shwC="0" inav="0">
+        <node lang="en" images="" audio="" fbx="" video=""/>
+      </page>
+      <page id="p03" nxt="" bck="" trk="0" indx="0" type="" navigbar="0" scrollbar="1" bgimg="" ttlbar="0" topbar="1" btmbar="1" bgA="left top" bgR="repeat" bgS="" tfrm="" bfrm="" hM="0" ytv="0" transid="" showplay="null" nomrg="0" pg_in="" pg_out="" trans="sgefg" shwC="0" inav="0" csb="1">
+        <node lang="en" images="logo,i90,undefined" audio="" fbx="" video=""/>
+      </page>
+      <page id="p04" nxt="" bck="" trk="0" indx="0" type="" navigbar="0" scrollbar="1" bgimg="" ttlbar="0" topbar="1" btmbar="1" bgA="left top" bgR="repeat" bgS="" tfrm="" bfrm="" hM="0" ytv="0" transid="" showplay="null" nomrg="0" pg_in="" pg_out="" trans="hijab" shwC="0" inav="0" csb="1">
+        <node lang="en" images="i_pause,i2,audio_on,i1,i91,i92,undefined" audio="" fbx="" video=""/>
+      </page>
+      <page id="p05" nxt="" bck="" trk="0" indx="0" images="logo" audio="null" video="" type="" navigbar="0" scrollbar="1" bgimg="" ttlbar="0" topbar="0" btmbar="0" bgA="left top" bgR="repeat" bgS="" tfrm="" bfrm="" hM="0" ytv="0" transid="" trans="bd" hO="yf"/>
+    </module>
+    <module id="module01" lock_on="" hidden="0" type="CONTENT" trk="1">
+      <page id="p35" nxt="" bck="" trk="1" indx="1" images="" audio="" video="" navigbar="1" bgimg="" scrollbar="1" tfrm="l_pages" bfrm="l_video_next" fbx="" showplay="0" nomrg="0" topbar="1" ttlbar="1" btmbar="1" bgA="left top" bgR="repeat" bgS="" hM="0" ytv="0" transid="" pg_in="" pg_out="" shwC="0" trans="wxyz" inav="0" csb="1">
+        <node lang="en" images="undefined" audio="a2" video="v2" fbx=""/>
+      </page>
+      <page id="p02" nxt="NMOD" bck="" trk="1" indx="1" images="" audio="" video="" navigbar="1" bgimg="" scrollbar="1" tfrm="l_pages" bfrm="l_video_next" fbx="" showplay="0" nomrg="0" topbar="1" ttlbar="1" btmbar="1" bgA="left top" bgR="repeat" bgS="" hM="0" ytv="0" transid="" pg_in="" pg_out="" shwC="0" trans="cdefg" inav="0" csb="1">
+        <node lang="en" images="undefined" audio="" video="v1" fbx=""/>
+      </page>
+    </module>
+    <module id="module03" lock_on="" hidden="0" type="ASSESSMENT" trk="1">
+      <settings fdbck="1" buttons="0,0,1" tries="1" random="1" option_random="0" score="100" certificate="1" asmnttries="1" showans="1" onlms="1" anext="0" completion="0" as_plmode="0">
+        <node ids="p01,p02" pick="2"/>
+      </settings>
+      <page id="p_intro" nxt="" bck="" trk="1" indx="1" navigbar="0" bgimg="" scrollbar="1" tfrm="l_menu" bfrm="l_assessment" showplay="null" nomrg="0" topbar="1" ttlbar="1" btmbar="0" bgA="left top" bgR="repeat" bgS="" hM="0" ytv="0" transid="" pg_in="" pg_out="" shwC="0" trans="sgefg" inav="0" csb="1">
+        <node lang="en" images="undefined" audio="a10" fbx="" video=""/>
+      </page>
+      <page id="p_scorepass" nxt="" bck="" trk="1" indx="1" navigbar="0" bgimg="" scrollbar="1" tfrm="l_menu" bfrm="l_assessment" showplay="null" nomrg="0" topbar="1" ttlbar="1" btmbar="1" bgA="left top" bgR="repeat" bgS="" hM="0" ytv="0" transid="" pg_in="" pg_out="" shwC="0" trans="mnopq" inav="0" csb="1">
+        <node lang="en" images="certificate" audio="" fbx="" video=""/>
+      </page>
+      <page id="p_scorefail" nxt="" bck="" trk="1" indx="1" navigbar="0" bgimg="" scrollbar="1" tfrm="l_menu" bfrm="l_assessment" showplay="null" nomrg="0" topbar="1" ttlbar="1" btmbar="1" bgA="left top" bgR="repeat" bgS="" hM="0" ytv="0" transid="" pg_in="" pg_out="" shwC="0" trans="wxyz" inav="0" csb="1">
+        <node lang="en" images="undefined" audio="" fbx="" video=""/>
+      </page>
+      <page id="p01" nxt="" bck="" trk="0" indx="1" navigbar="1" bgimg="" scrollbar="1" tfrm="l_menu" bfrm="l_assessment" showplay="null" nomrg="0" topbar="1" ttlbar="1" btmbar="1" bgA="left top" bgR="repeat" bgS="" hM="0" ytv="0" transid="" pg_in="" pg_out="" shwC="0" trans="hijab" inav="0" csb="1">
+        <node lang="en" images="" audio="" fbx="" video=""/>
+      </page>
+      <page id="p02" nxt="" bck="" trk="0" indx="1" navigbar="1" bgimg="" scrollbar="1" tfrm="l_menu" bfrm="l_assessment" showplay="null" nomrg="0" topbar="1" ttlbar="1" btmbar="1" bgA="left top" bgR="repeat" bgS="" hM="0" ytv="0" transid="" pg_in="" pg_out="" shwC="0" trans="hijkl" inav="0" csb="1">
+        <node lang="en" images="" audio="" fbx="" video=""/>
+      </page>
+    </module>
+  </modules>
+  <resources>
+    <images>
+      <res id="plcholder" src="plcholder.jpg" lang=""/>
+      <res id="certificate" src="certificate.jpg" lang=""/>
+      <res id="logo" src="logo.png" lang=""/>
+      <res id="i_pause" src="i_pause.png" lang=""/>
+      <res id="audio_on" src="audio_on.png" lang=""/>
+      <res id="i1" src="audio_off.png" lang="" name="audio_off"/>
+      <res id="i2" src="i_play.png" lang="" name="i_play"/>
+      <res id="i46" src="left.png" lang="" name="left"/>
+      <res id="i90" src="kb_logo_.png" lang="" name="kb_logo_"/>
+      <res id="i91" src="audio_on_1.png" lang="" name="audio_on_1"/>
+      <res id="i92" src="audio_off_1.png" lang="" name="audio_off_1"/>
+    </images>
+    <audio>
+      <res id="a10" src="nerratorr__13.mp3" lang="" name="nerratorr__13"/>
+      <res id="a1" src="background_music_06.mp3" lang="" name="background_music_06"/>
+      <res id="a2" src="bg.mp3" lang="" name="bg"/>
+    </audio>
+    <video>
+      <res id="v1" src="testscorm.mp4" lang="" name="testscorm"/>
+      <res id="v2" src="testscorm_01.mp4" lang="" name="testscorm_01"/>
+    </video>
+    <fonts>
+      <res id="fontawesome" src="fontawesome.otf" lang=""/>
+      <res id="myriadpro_bold" src="myriadpro_bold.otf" lang=""/>
+      <res id="myriadpro_boldcond" src="myriadpro_boldcond.otf" lang=""/>
+      <res id="myriadpro_boldcondit" src="myriadpro_boldcondit.otf" lang=""/>
+      <res id="myriadpro_boldit" src="myriadpro_boldit.otf" lang=""/>
+      <res id="myriadpro_cond" src="myriadpro_cond.otf" lang=""/>
+      <res id="myriadpro_condit" src="myriadpro_condit.otf" lang=""/>
+      <res id="myriadpro_it" src="myriadpro_it.otf" lang=""/>
+      <res id="myriadpro_regular" src="myriadpro_regular.otf" lang=""/>
+      <res id="myriadpro_semibold" src="myriadpro_semibold.otf" lang=""/>
+      <res id="myriadpro_semiboldit" src="myriadpro_semiboldit.otf" lang=""/>
+    </fonts>
+  </resources>
+  <clone>
+    <roles/>
+    <module id="" lock_on="" hidden="" type="CONTENT">
+      <page id="p01" nxt="" bck="" trk="0" indx="1" images="" audio="" video="" navigbar="1" bgimg="" scrollbar="0" tfrm="l_pages" bfrm="l_pages"/>
+    </module>
+    <module id="" lock_on="" hidden="" type="ASSESSMENT">
+      <settings fdbck="1" buttons="0,0,1" tries="1" random="1" option_random="1" score="80" certificate="1" asmnttries="3" showans="0">
+        <node ids="p01,p02" pick="2"/>
+      </settings>
+      <page id="p_intro" nxt="" bck="" trk="1" indx="1" images="" audio="" video="" navigbar="0" bgimg="" scrollbar="1" tfrm="l_pages" bfrm="l_pages"/>
+      <page id="p_scorepass" nxt="" bck="" trk="1" indx="1" images="certificate" audio="" video="" navigbar="0" bgimg="" scrollbar="1" tfrm="l_pages" bfrm="l_pages"/>
+      <page id="p_scorefail" nxt="" bck="" trk="1" indx="1" images="" audio="" video="" navigbar="0" bgimg="" scrollbar="1" tfrm="l_pages" bfrm="l_pages"/>
+      <page id="p01" nxt="" bck="" trk="0" indx="1" images="" audio="" video="" navigbar="1" bgimg="" scrollbar="1" tfrm="l_pages" bfrm="l_pages"/>
+      <page id="p02" nxt="" bck="" trk="0" indx="1" images="" audio="" video="" navigbar="1" bgimg="" scrollbar="1" tfrm="l_pages" bfrm="l_pages"/>
+    </module>
+    <page id="" nxt="" bck="" trk="0" indx="1" images="" audio="" video="" navigbar="1" bgimg="" scrollbar="1" tfrm="l_pages" bfrm="l_pages"/>
+    <res id="" src="" lang=""/>
+    <docs/>
+    <fonts/>
+    <fbx/>
+    <node/>
+  </clone>
+</root>

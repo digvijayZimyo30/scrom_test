@@ -1,0 +1,94 @@
+﻿<?xml version="1.0"?>
+<root>
+  <elements>
+    <object id="L3" template="CONTENT">
+      <i_content>
+        <node><![CDATA[<div style="text-align: center;">You have exhausted all tries to clear this quiz. Please Exit the course and start new attempt.</div>]]></node>
+      </i_content>
+    </object>
+    <object id="A1" template="AUDIO" src="a10" tts="" pub="0"/>
+    <object id="T1" template="HOLDER" hTab="1">
+      <i_content>
+        <node><![CDATA[
+								<table role="presentation" cellspacing="0" cellpadding="10" border="1" bordercolor="#000000" width="100%" style="border-collapse: collapse; height: 100%;" height="100%">
+									<tbody><tr><td valign="top">@CHLD_T2$@CHLD_B1$</td></tr>
+								</tbody></table>
+						]]></node>
+      </i_content>
+    </object>
+    <object id="T2" template="HOLDER" hTab="1">
+      <i_content>
+        <node><![CDATA[
+								<table role="presentation" cellspacing="0" cellpadding="5" border="1" bordercolor="#000000" width="100%" height="100%">
+									<tbody><tr><td class="int_Assessment" align="left" valign="middle">@CHLD_L2$</td></tr>
+								</tbody></table>
+						]]></node>
+      </i_content>
+    </object>
+    <object id="L2" template="CONTENT">
+      <i_content>
+        <node><![CDATA[Now, we will check the score tracking. You will see multiple choice questions in the next screens. <br>The clue of correct answer is in the questions itself.<br>]]></node>
+      </i_content>
+    </object>
+    <object id="B1" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_D" n_styl="btn_Button_A" t_styl="btn_Button_T" s_styl="btn_Button_S" v_styl="btn_Button_V" x_styl="btn_Button_X">
+      <i_content>
+        <node><![CDATA[Start&nbsp;]]></node>
+      </i_content>
+    </object>
+  </elements>
+  <timeline fps="15">
+    <label>
+      <frm num="11" name="tries_exhaust"/>
+    </label>
+    <layer id="L0" type="ACTIONS">
+      <span ac="CheckAsmntTries:tries_exhaust;">
+        <frm num="1"/>
+        <frm num="1"/>
+      </span>
+      <span ac="Stop;">
+        <frm num="10"/>
+        <frm num="10"/>
+      </span>
+      <span ac="Stop;">
+        <frm num="15"/>
+        <frm num="15"/>
+      </span>
+    </layer>
+    <layer id="A1" type="AUDIO" pub="0" lock="1" hide="1">
+      <span an="0" ease="0" hd="0" xreg="left" w="" h="" sA="1" fl="4" sE="10.11">
+        <frm num="2" x="-307" y="-18"/>
+        <frm num="10" x="-307" y="-18"/>
+      </span>
+    </layer>
+    <layer id="T1" type="HOLDER">
+      <span an="0" ease="0" hd="0" xreg="left" w="-1" h="-1" class="" imgs="50" fl="4" mB="" mL="" mT="0">
+        <frm num="2" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="10" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="T2" type="HOLDER" holder="T1">
+      <span an="0" ease="0" hd="0" xreg="left" w="" h="" class="" imgs="50" fl="4" mL="15" mR="15" mT="50">
+        <frm num="2" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="10" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="L2" type="CONTENT" holder="T2">
+      <span an="0" ease="1" ac="" bgI="undefined" hd="0" class="box_style1" xreg="left" frmt=";d:vw;s:2;s,1.5;sm:18;f:Trebuchet MS;a:center" mT="10" w="">
+        <frm num="2" x="" y="0" o="1.00" rX="0" rY="0" sX="1" sY="1" w="" h="61"/>
+        <frm num="10" x="" y="0" o="1" rX="0" rY="0" sX="1" sY="1" w="" h="61"/>
+      </span>
+    </layer>
+    <layer id="B1" type="BUTTON" holder="T1">
+      <span an="0" ease="0" ac="StartAssessment;" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="147" h="58" class="" fl="2">
+        <frm num="2" x="" y="51" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="10" x="" y="51" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="L3" type="CONTENT" lb="Asmnt Tries" vA="1">
+      <span an="0" ease="1" ac="" bgI="" hd="0" class="int_contentbox" xreg="left" h="266" w="645" fl="2" frmt=";s:1.5;d:vw;d,vw;sm:14;f:Trebuchet MS">
+        <frm num="11" x="" y="120" o="1.00" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="15" x="" y="120" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+  </timeline>
+</root>

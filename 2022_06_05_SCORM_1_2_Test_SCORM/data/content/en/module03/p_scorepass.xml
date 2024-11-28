@@ -1,0 +1,117 @@
+﻿<?xml version="1.0"?>
+<root>
+  <elements>
+    <object id="Q1" template="SCORE" scr="0">
+      <i_score>
+        <node><![CDATA[Congratulations! You have <font color="#ff2817">passed </font>the quiz successfully, Your score <font color="#ff1111">is&nbsp;<b>$V_ASMNTSCORE%</b>.</font>]]></node>
+      </i_score>
+    </object>
+    <object id="L5" template="CONTENT">
+      <i_content>
+        <node><![CDATA[<span style="font-size: 20px;">This is to certify that&nbsp;<b><font color="#ff0000" style="">$V_USERNAME</font></b><br><br>has successfully completed the course for<br><br>"<b style="color: rgb(0, 128, 192);">$V_COURSENAME</b>"<br><br>Date: $V_DATESTAMP</span>]]></node>
+      </i_content>
+    </object>
+    <object id="L3" template="CONTENT">
+      <i_content>
+        <node><![CDATA[<img id="certificate" style="-webkit-user-drag: none; max-width: 1005px; width: 100%;" ondblclick="f_openimagelib(this)" src="../data/media/common/certificate.jpg?rnd=0.14277557516470551">]]></node>
+      </i_content>
+    </object>
+    <object id="B4" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_D" n_styl="btn_Button_A" t_styl="btn_Button_T" s_styl="btn_Button_S" v_styl="btn_Button_V" x_styl="btn_Button_X" pub="0">
+      <i_content>
+        <node><![CDATA[Print Certificate]]></node>
+      </i_content>
+    </object>
+    <object id="L1" template="CONTENT" hTab="1">
+      <i_content>
+        <node><![CDATA[Student Name is&nbsp;<b>$V_USERNAME</b>.]]></node>
+      </i_content>
+    </object>
+    <object id="L2" template="CONTENT" hTab="1">
+      <i_content>
+        <node><![CDATA[User ID is&nbsp;<span style="font-weight: bold;">$userid</span>.]]></node>
+      </i_content>
+    </object>
+    <object id="L6" template="CONTENT" hTab="1">
+      <i_content>
+        <node><![CDATA[If you see the User ID and Student Name correctly, then this SCORM is compatible with your LMS.]]></node>
+      </i_content>
+    </object>
+  </elements>
+  <timeline fps="15">
+    <label>
+      <frm num="6" name="l_print"/>
+    </label>
+    <layer id="L0" type="ACTIONS">
+      <span ac="Stop;">
+        <frm num="5"/>
+        <frm num="5"/>
+      </span>
+      <span ac="Print:C1;">
+        <frm num="9"/>
+        <frm num="9"/>
+      </span>
+      <span ac="GoToFrame: 1;">
+        <frm num="13"/>
+        <frm num="13"/>
+      </span>
+    </layer>
+    <layer id="L1" type="CONTENT">
+      <span an="0" ease="0" ac="" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" class="" imgs="50" fl="4" ldac="" mL="10" mR="10" mT="25">
+        <frm num="1" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1" w="" h=""/>
+        <frm num="5" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1" w="" h=""/>
+      </span>
+    </layer>
+    <layer id="L2" type="CONTENT">
+      <span an="0" ease="0" ac="" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" class="" imgs="50" fl="4" ldac="GetValueFromVar:$userid:_course.studentID;" mL="10" mR="10" mT="10" frmt="">
+        <frm num="1" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1" w="" h=""/>
+        <frm num="5" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1" w="" h=""/>
+      </span>
+    </layer>
+    <layer id="Q1" type="SCORE">
+      <span an="1" ease="0" ac="" bgI="" hd="0" xreg="left" w="" class="box_style1" mL="10" mR="10" mT="">
+        <frm num="1" x="" y="30" o="0.5" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="5" x="" y="30" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="B4" type="BUTTON" pub="0" lock="0" hide="1">
+      <span an="0" ease="0" ac="root.GoToLabel:l_print:0;" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="152" h="36" class="" fl="2">
+        <frm num="1" x="" y="40" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="5" x="" y="40" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="C1" type="CLIP" clipid="C1">
+      <span an="0" ease="0" hd="0" xreg="left" w="966" mS="0" h="627">
+        <frm num="6" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="9" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="L6" type="CONTENT">
+      <span an="0" ease="0" ac="" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" class="" imgs="50" fl="4" ldac="" mL="10" mR="77" mT="10" frmt=";s:20;i:1;c:rgb(0, 139, 255)" w="">
+        <frm num="1" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1" w="" h=""/>
+        <frm num="5" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1" w="" h=""/>
+      </span>
+    </layer>
+  </timeline>
+  <clips>
+    <clip id="C1">
+      <layer id="L0" type="ACTIONS">
+        <span ac="stop;">
+          <frm num="5"/>
+          <frm num="5"/>
+        </span>
+      </layer>
+      <layer id="L3" type="CONTENT">
+        <span an="0" ease="0" ac="" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="" h="" class="" mS="1">
+          <frm num="1" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="5" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+      <layer id="L5" type="CONTENT">
+        <span an="0" ease="0" ac="" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="908" h="" class="int_textcenter" mS="1" fl="0" frmt=";a:center">
+          <frm num="1" x="50" y="241" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="5" x="50" y="241" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+    </clip>
+  </clips>
+</root>

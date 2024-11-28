@@ -1,0 +1,182 @@
+﻿<?xml version="1.0"?>
+<root>
+  <elements>
+    <object id="L1" template="FORM" type="Drp" correct="0,1,0" s_styl="int_QuizFIB_Correct" i_styl="int_QuizFIB_Incorrect" pub="1">
+      <i_option>
+        <node><![CDATA[Option 1]]></node>
+        <node><![CDATA[Option 2]]></node>
+        <node><![CDATA[Option 3]]></node>
+      </i_option>
+    </object>
+    <object id="L4" template="CONTENT" pub="1">
+      <i_content>
+        <node><![CDATA[Select your preferred language]]></node>
+      </i_content>
+    </object>
+    <object id="L5" template="CONTENT" pub="1">
+      <i_content>
+        <node><![CDATA[<b>$V_COURSENAME</b>]]></node>
+      </i_content>
+    </object>
+    <object id="L6" template="IMAGE" pub="1">
+      <i_content>
+        <node><![CDATA[<img id="logo" style="width: 100%; height: 77px; margin: 0px; -webkit-user-select: none;" src="../data/media/common/logo.jpg?rnd=1455020347093" class="" contenteditable="false">]]></node>
+      </i_content>
+    </object>
+    <object id="L7" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_D" n_styl="btn_Button_A" t_styl="btn_Button_T" s_styl="btn_Button_S" v_styl="">
+      <i_content>
+        <node><![CDATA[Launch Course]]></node>
+      </i_content>
+    </object>
+    <object id="L2" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_D" n_styl="btn_Button_A" t_styl="btn_Button_T" s_styl="btn_Button_S" v_styl="">
+      <i_content>
+        <node><![CDATA[Bookmark]]></node>
+      </i_content>
+    </object>
+    <object id="L8" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_Radio_D" n_styl="btn_Button_Radio_A" t_styl="btn_Button_Radio_T" s_styl="btn_Button_Radio_S" v_styl="" b_grp="grp1" a_stat="0">
+      <i_content>
+        <node><![CDATA[]]></node>
+      </i_content>
+    </object>
+    <object id="L3" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_Radio_D" n_styl="btn_Button_Radio_A" t_styl="btn_Button_Radio_T" s_styl="btn_Button_Radio_S" v_styl="" b_grp="grp1" a_stat="0">
+      <i_content>
+        <node><![CDATA[]]></node>
+      </i_content>
+    </object>
+    <object id="L10" template="CONTENT">
+      <i_content>
+        <node><![CDATA[No]]></node>
+      </i_content>
+    </object>
+    <object id="L11" template="CONTENT">
+      <i_content>
+        <node><![CDATA[Yes]]></node>
+      </i_content>
+    </object>
+    <object id="L9" template="CONTENT">
+      <i_content>
+        <node><![CDATA[Load Audio :]]></node>
+      </i_content>
+    </object>
+  </elements>
+  <timeline fps="15">
+    <label/>
+    <layer id="L0" type="ACTIONS">
+      <span ac="Stop;">
+        <frm num="6"/>
+        <frm num="6"/>
+      </span>
+    </layer>
+    <layer id="L5" type="CONTENT" pub="1" hide="0">
+      <span an="0" ease="0" ac="" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="" h="" class="" fl="4" frmt=";a:center;s:22;c:rgb(80, 80, 80)">
+        <frm num="1" x="NaN" y="30" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="6" x="NaN" y="30" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="L4" type="CONTENT" pub="1" hide="0">
+      <span an="0" ease="0" ac="" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="" h="" class="" fl="4" frmt=";a:center;s:22;c:rgb(80, 80, 80)">
+        <frm num="1" x="" y="44" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="6" x="" y="44" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="L1" type="FORM" pub="1" hide="0">
+      <span an="0" ease="0" ac="" bgI="" hd="0" xreg="left" w="225" class="int_QuizFIB" fl="2" bnd="10">
+        <frm num="1" x="" y="50" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="6" x="" y="50" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="C2" type="CLIP" clipid="C2" pub="1" hide="0">
+      <span an="0" ease="0" hd="0" xreg="left" w="965" fl="4" h="36" algn="2">
+        <frm num="1" x="" y="68" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="6" x="" y="68" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="C1" type="CLIP" clipid="C1" pub="1" hide="0">
+      <span an="0" ease="0" hd="0" xreg="left" w="712" fl="2" h="50" algn="2">
+        <frm num="1" x="" y="100" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="6" x="" y="100" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="L6" type="IMAGE" pub="1" hide="0">
+      <span an="0" ease="0" ac="" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="128" h="40" class="" fl="2">
+        <frm num="1" x="" y="100" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="6" x="" y="100" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+  </timeline>
+  <clips>
+    <clip id="C1">
+      <label>
+        <frm num="10" name="l_bkmark"/>
+      </label>
+      <layer id="L0" type="ACTIONS">
+        <span ac="CheckBookmark:l_bkmark;">
+          <frm num="1"/>
+          <frm num="1"/>
+        </span>
+        <span ac="Stop;">
+          <frm num="9"/>
+          <frm num="9"/>
+        </span>
+        <span ac="stop;">
+          <frm num="21"/>
+          <frm num="21"/>
+        </span>
+      </layer>
+      <layer id="L7" type="BUTTON" lb="Launch Button">
+        <span an="0" ease="0" ac="SetLanguage:L1;LoadCourse;" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="155" h="35" class="" fl="4" dp="1">
+          <frm num="3" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="9" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+        <span an="0" ease="0" ac="SetLanguage:L1;LoadCourse;" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="155" h="35" class="" fl="4" dp="1">
+          <frm num="13" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="21" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+      <layer id="L2" type="BUTTON" lb="Bookmark Button">
+        <span an="0" ease="0" ac="SetLanguage:L1;LoadBookmark;" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="155" h="35" class="" fl="4" dp="1">
+          <frm num="13" x="20" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="21" x="20" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+    </clip>
+    <clip id="C2">
+      <layer id="L0" type="ACTIONS">
+        <span ac="stop;">
+          <frm num="6"/>
+          <frm num="6"/>
+        </span>
+      </layer>
+      <layer id="L9" type="CONTENT">
+        <span an="0" ease="0" ac="" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="120" h="" class="" fl="4" frmt=";a:left;s:16;b:1" dp="1">
+          <frm num="1" x="" y="-5" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="10" x="" y="-5" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+      <layer id="L8" type="BUTTON">
+        <span an="0" ease="0" ac="SetAudioLoad:0;" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="30" h="30" class="" fl="4" dp="1">
+          <frm num="1" x="" y="3" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="6" x="" y="3" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+      <layer id="L10" type="CONTENT">
+        <span an="0" ease="0" ac="" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="48" h="" class="" fl="4" frmt=";a:left;s:16" dp="1">
+          <frm num="1" x="6" y="-5" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="10" x="6" y="-5" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+      <layer id="L3" type="BUTTON">
+        <span an="0" ease="0" ac="SetAudioLoad:1;" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="30" h="30" class="" fl="4" i_state="3" dp="1">
+          <frm num="1" x="" y="3" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="6" x="" y="3" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+      <layer id="L11" type="CONTENT">
+        <span an="0" ease="0" ac="" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="48" h="" class="" fl="4" frmt=";a:left;s:16" dp="1">
+          <frm num="1" x="6" y="-5" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="10" x="6" y="-5" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+    </clip>
+  </clips>
+</root>

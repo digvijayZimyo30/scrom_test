@@ -1,0 +1,94 @@
+﻿<?xml version="1.0"?>
+<root>
+  <elements>
+    <object id="Q1" template="SCORE" scr="0">
+      <i_score>
+        <node><![CDATA[You were unable to score the passing marks. Your have scored <b>$V_ASMNTSCORE%</b>. You need to score&nbsp;<b>$V_PASSMARKS%</b> to pass this quiz.]]></node>
+      </i_score>
+    </object>
+    <object id="B3" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_D" n_styl="btn_Button_A" t_styl="btn_Button_T" s_styl="btn_Button_S" v_styl="btn_Button_V" x_styl="btn_Button_X">
+      <i_content>
+        <node><![CDATA[Retake]]></node>
+      </i_content>
+    </object>
+    <object id="L1" template="CONTENT">
+      <i_content>
+        <node><![CDATA[Please Exit the course and start a new attempt.]]></node>
+      </i_content>
+    </object>
+    <object id="L2" template="CONTENT" hTab="1">
+      <i_content>
+        <node><![CDATA[User Name is&nbsp;<b>$V_USERNAME</b>.]]></node>
+      </i_content>
+    </object>
+    <object id="L3" template="CONTENT" hTab="1">
+      <i_content>
+        <node><![CDATA[User&nbsp;ID is&nbsp;<b style="">$userid</b>.]]></node>
+      </i_content>
+    </object>
+    <object id="L4" template="CONTENT" hTab="1">
+      <i_content>
+        <node><![CDATA[If you see the User ID and Student Name correctly, then this SCORM is compatible with your LMS.]]></node>
+      </i_content>
+    </object>
+  </elements>
+  <timeline fps="15">
+    <label>
+      <frm num="6" name="tries_exhaust"/>
+    </label>
+    <layer id="L0" type="ACTIONS">
+      <span ac="CheckAsmntTries:tries_exhaust;">
+        <frm num="1"/>
+        <frm num="1"/>
+      </span>
+      <span ac="Stop;">
+        <frm num="5"/>
+        <frm num="5"/>
+      </span>
+      <span ac="Stop;">
+        <frm num="10"/>
+        <frm num="10"/>
+      </span>
+    </layer>
+    <layer id="L2" type="CONTENT">
+      <span an="0" ease="0" ac="" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" class="" imgs="50" fl="4" ldac="" mL="10" mR="10" mT="25">
+        <frm num="1" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1" w="" h=""/>
+        <frm num="10" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1" w="" h=""/>
+      </span>
+    </layer>
+    <layer id="L3" type="CONTENT">
+      <span an="0" ease="0" ac="" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" class="" imgs="50" fl="4" ldac="GetValueFromVar:$userid:_course.studentID;" mL="10" mR="10" mT="10">
+        <frm num="1" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1" w="" h=""/>
+        <frm num="10" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1" w="" h=""/>
+      </span>
+    </layer>
+    <layer id="L1" type="CONTENT">
+      <span an="0" ease="0" ac="" bgI="undefined" hd="0" xreg="left" bgA="center" bgR="no-repeat" class="" imgs="50" fl="4" frmt=";a:center;f:Trebuchet MS;d:vw;s:1.5;sm:16" mT="20" mB="10">
+        <frm num="6" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1" w="" h=""/>
+        <frm num="10" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1" w="" h=""/>
+      </span>
+    </layer>
+    <layer id="Q1" type="SCORE">
+      <span an="1" ease="0" ac="" bgI="" hd="0" xreg="left" w="" class="box_style1" h="" frmt=";s:1.5;f:Trebuchet MS;d:vw;d,vw;sm:13" mL="10" mR="10">
+        <frm num="1" x="" y="30" o="0.5" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="5" x="" y="30" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+      <span an="1" ease="0" ac="" bgI="" hd="0" xreg="left" w="" class="box_style1" frmt=";f:Trebuchet MS;s:1.5;d:vw;d,vw;sm:13" mL="10" mR="10">
+        <frm num="6" x="" y="30" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="10" x="" y="30" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="L4" type="CONTENT">
+      <span an="0" ease="0" ac="" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" class="" imgs="50" fl="4" ldac="" mL="10" mR="77" mT="10" frmt=";s:20;i:1;c:rgb(0, 139, 255)">
+        <frm num="1" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1" w="" h=""/>
+        <frm num="5" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1" w="" h=""/>
+      </span>
+    </layer>
+    <layer id="B3" type="BUTTON">
+      <span an="0" ease="0" ac="ReloadModule;" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="85" h="31" class="" fl="2">
+        <frm num="2" x="0" y="40" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="5" x="0" y="40" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+  </timeline>
+</root>

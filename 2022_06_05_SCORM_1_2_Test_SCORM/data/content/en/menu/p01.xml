@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<root>
+  <elements>
+    <object id="L2" template="MODULELIST"/>
+  </elements>
+  <timeline fps="15">
+    <layer id="L0" type="ACTIONS">
+      <span ac="Stop;">
+        <frm num="10"/>
+        <frm num="10"/>
+      </span>
+    </layer>
+    <layer id="L2" type="MODULELIST">
+      <span ease="0" hd="0" xreg="left" w="530" an="0" h="" fl="2">
+        <frm num="1" x="" y="160" o="0.90" rX="0" rY="0" rZ="0" sX="1" sY="1"/>
+        <frm num="10" x="" y="160" o="0.90" rX="0" rY="0" rZ="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+  </timeline>
+</root>

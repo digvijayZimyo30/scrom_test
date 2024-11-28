@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+  <general>
+    <title>
+      <langstring xml:lang="en-us">Course Title</langstring>
+    </title>
+    <description>
+      <langstring xml:lang="en-us">Course Title</langstring>
+    </description>
+    <language>en-us</language>
+  </general>
+  <lifecycle>
+    <version>
+      <langstring>1.0</langstring>
+    </version>
+    <status>
+      <source>
+        <langstring xml:lang="x-none">LOMv1.0</langstring>
+      </source>
+      <value>
+        <langstring xml:lang="x-none">Final</langstring>
+      </value>
+    </status>
+  </lifecycle>
+  <technical>
+    <format>text/html</format>
+    <requirement>
+      <type>
+        <source>
+          <langstring xml:lang="x-none">LOMv1.0</langstring>
+        </source>
+        <value>
+          <langstring xml:lang="x-none">Browser</langstring>
+        </value>
+      </type>
+      <name>
+        <source>
+          <langstring xml:lang="x-none">LOMv1.0</langstring>
+        </source>
+        <value>
+          <langstring xml:lang="x-none">Microsoft Internet Explorer</langstring>
+        </value>
+      </name>
+      <minimumversion>9.0</minimumversion>
+    </requirement>
+    <otherplatformrequirements>
+      <langstring xml:lang="en"></langstring>
+    </otherplatformrequirements>
+  </technical>
+</lom>
+

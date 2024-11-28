@@ -1,0 +1,93 @@
+﻿<?xml version="1.0"?>
+<root>
+  <elements>
+    <object id="T1" template="HOLDER">
+      <i_content>
+        <node><![CDATA[
+							<table role="presentation" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000" width="100%" style="border-collapse: collapse; overflow: hidden; height: 100%;">
+								<tbody><tr><td valign="top">@CHLD_V2$@CHLD_L1$@CHLD_H2$</td></tr>
+							</tbody></table>
+					]]></node>
+      </i_content>
+    </object>
+    <object id="V2" template="VIDEO" src="v1" cntrl="0" autstrt="1" pub="1" cpause="0" scue="2,8,15,22,25,33,36,45,52,57,65,69,75,80,84,90,99,104,106,109,110,114,121,127,131,136,139,143,148,155,160,165,172,181,187,193,196,201" vmode="1" sttl=""/>
+    <object id="L1" template="CONTENT" pub="1">
+      <i_content>
+        <node><![CDATA[Click or Tap&nbsp;to Start.<span style="font-size: 30px; "><br><span style="font-family: fontawesome; "></span></span><br>]]></node>
+      </i_content>
+    </object>
+    <object id="H2" template="SHAPE" pub="1"/>
+    <object id="L3" template="CONTENT" pub="1">
+      <i_content>
+        <node><![CDATA[<br><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote><blockquote style="margin: 0px 0px 0px 40px; border: none; padding: 0px; "></blockquote>]]></node>
+      </i_content>
+    </object>
+    <object id="L2" template="CONTENT" hTab="1">
+      <i_content>
+        <node><![CDATA[Be a good listener. |&nbsp;]]></node>
+      </i_content>
+    </object>
+  </elements>
+  <timeline fps="15">
+    <label/>
+    <layer id="L0" type="ACTIONS">
+      <span ac="CUSTOM:cust_update_contentType:video;">
+        <frm num="1"/>
+        <frm num="1"/>
+      </span>
+      <span ac="Stop;">
+        <frm num="10"/>
+        <frm num="10"/>
+      </span>
+    </layer>
+    <layer id="T1" type="HOLDER">
+      <span an="0" ease="0" hd="0" xreg="left" w="-1" h="-1" class="" imgs="50" fl="4" mL="" mR="">
+        <frm num="1" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="10" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+      <dv sz="768">
+        <span xreg="left" w="" h="" imgs="50" fl="4" mL="" mR="">
+          <frm x="" y=""/>
+          <frm x="" y=""/>
+        </span>
+      </dv>
+    </layer>
+    <layer id="V2" type="VIDEO" hide="0" pub="1" holder="T1" lb="Video">
+      <span an="0" ease="0" hd="0" xreg="left" w="-1" h="-1" fl="0" mL="0" yreg="top" mR="0" mT="0" mB="0" eac="EnableNext;CUSTOM:cust_autohide_off:;CUSTOM:cust_MouseDown:;" lac="Hide:L1;" d_cue="CUSTOM:c_updtranscript:t_trans;">
+        <frm num="2" x="0" y="0" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="10" x="0" y="0" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+      <dv sz="768">
+        <span xreg="left" w="" h="" fl="4" mL="0" yreg="top" mR="0" mT="0" mB="0">
+          <frm x="0" y="0"/>
+          <frm x="0" y="0"/>
+        </span>
+      </dv>
+    </layer>
+    <layer id="L1" type="CONTENT" holder="T1" vA="1" hide="1" lock="0" pub="1">
+      <span an="0" ease="0" ac="" bgI="undefined" hd="0" xreg="left" bgA="" bgR="" class="int_play_vid_container" imgs="50" fl="0" frmt=";a:center;s:20;c:rgb(0, 139, 255)" w="" h="" imgsC="1" mBlk="1" bgC="">
+        <frm num="2" x="0" y="0" o="1" rX="0" rY="0" sX="1" sY="1" w="-1" h="-1" bgC="" bgT="0,0"/>
+        <frm num="10" x="0" y="0" o="1" rX="0" rY="0" sX="1" sY="1" w="-1" h="-1" bgC=""/>
+      </span>
+    </layer>
+    <layer id="H2" type="SHAPE" hide="1" pub="1" holder="T1">
+      <span an="0" ease="0" ac="VideoTogglePlay:d_content:0;Hide:L1;" hd="0" xreg="left" w="-1" h="-1" class="" fl="0" shp="0" rds="22" mBlk="1" brds="" vdp="0">
+        <frm num="2" x="0" y="0" o="0.01" rX="0" rY="0" sX="1" sY="1" bgC="rgba(64, 64, 64, 1)"/>
+        <frm num="10" x="0" y="0" o="0.01" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="L3" type="CONTENT" dp="isOrnL,isComputer" lb="transcript" hide="1" pub="1">
+      <span an="0" ease="0" ac="" bgI="undefined" hd="0" xreg="left" bgA="center" bgR="no-repeat" class="int_Transcript" imgs="50" fl="4" vdp="0" scr="1" h="" mT="7" mL="7" mR="7" mB="10" frmt=";d:vw;s:1.5;s,1.5;sm:16;a:center">
+        <frm num="2" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1" w="" h=""/>
+        <frm num="10" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1" w="" h=""/>
+      </span>
+    </layer>
+    <layer id="L2" type="CONTENT" lb="t_trans" dp="">
+      <span an="0" ease="0" ac="" bgI="undefined" hd="0" xreg="left" bgA="center" bgR="no-repeat" class="" imgs="50" fl="0" scr="1">
+        <frm num="1" x="-486" y="-19" o="1" rX="0" rY="0" sX="1" sY="1" w="451" h="208"/>
+        <frm num="10" x="-486" y="-19" o="1" rX="0" rY="0" sX="1" sY="1" w="451" h="208"/>
+      </span>
+    </layer>
+  </timeline>
+  <clips/>
+</root>

@@ -1,0 +1,887 @@
+.int_contentbox {
+	 background: padding-box rgb(0, 139, 255);
+	 box-shadow: rgba(50, 50, 50, 0.4) 0px 0px 9px 1px;
+	 border-width: 0px;
+	 border-radius: 0px;
+	 padding: 10px;
+	 font-size: 16px;
+	 text-align: left;
+	 text-decoration: none;
+	 color: rgb(254, 254, 254);
+}
+.int_image_margin {
+	 margin: 5px;
+	 background-clip: padding-box;
+}
+.int_QuizFIB {
+	 border: 2px solid rgb(167, 167, 167);
+	 border-radius: 5px;
+	 padding: 5px;
+	 font-size: 16px;
+	 text-align: center;
+	 color: rgb(0, 0, 0);
+	 background: rgb(255, 255, 255);
+}
+.int_QuizFIB:focus {
+	 border: 2px solid rgb(73, 167, 226);
+	 border-radius: 5px;
+	 padding: 5px;
+	 font-size: 16px;
+	 text-align: center;
+	 color: rgb(0, 0, 0);
+	 background: rgb(255, 255, 255);
+}
+.int_QuizFIB_Correct {
+	 border: 2px solid rgb(0, 180, 75);
+	 border-radius: 5px;
+}
+.int_QuizFIB_Incorrect {
+	 border: 2px solid rgb(225, 52, 0);
+	 border-radius: 5px;
+}
+.int_QuizRadioChk {
+	 border: 2px solid rgb(255, 255, 255);
+	 border-radius: 5px;
+	 padding: 10px 15px 10px 10px;
+	 margin: auto 40px 5px auto;
+	 font-size: 16px;
+	 text-align: left;
+	 color: rgb(0, 0, 0);
+	 background: rgb(255, 255, 255);
+}
+.int_QuizRadioChk_Correct {
+	 border: 2px solid rgb(0, 180, 75);
+	 border-radius: 5px;
+}
+.int_QuizRadioChk_Incorrect {
+	 border: 2px solid rgb(238, 16, 0);
+	 border-radius: 5px;
+}
+.int_QuizDrag_Cor {
+}
+.int_QuizDrag_Cor::after {
+	 content: url("i_qtick.png");
+	 margin: 0px -30px 0px 0px;
+	 transform: scale(0.5);
+	 display: inline-block;
+	 position: absolute;
+	 right: 0px;
+	 bottom: 0px;
+}
+.int_QuizDrag_Incor {
+}
+.int_QuizDrag_Incor::after {
+	 content: url("i_qcross.png");
+	 margin: 0px -30px 0px 0px;
+	 transform: scale(0.5);
+	 display: inline-block;
+	 position: absolute;
+	 right: 0px;
+	 bottom: 0px;
+}
+.int_QuizFdbckCorrect {
+	 padding: 10px;
+	 font-size: 18px;
+	 text-align: center;
+	 font-family: Calibri;
+	 color: rgb(255, 255, 255);
+	 background: padding-box rgb(0, 137, 123);
+}
+.int_QuizFdbckIncorrect {
+	 box-shadow: rgba(50, 50, 50, 0.498) 0px 0px 10px 1px;
+	 padding: 10px;
+	 font-size: 18px;
+	 text-align: center;
+	 color: rgb(255, 255, 255);
+	 background: padding-box rgb(244, 66, 54);
+}
+.int_speechBubble {
+	 border: 0px solid rgb(1, 87, 155);
+	 border-radius: 5px;
+	 padding: 4px 10px;
+	 font-size: 14px;
+	 color: rgb(51, 51, 51);
+	 background: padding-box rgb(255, 255, 255);
+}
+.btn_ButtonWithMargins_A {
+	 border: 0px solid rgb(1, 87, 155);
+	 border-radius: 5px;
+	 margin: 10px;
+	 font-size: 18px;
+	 text-align: center;
+	 font-weight: bold;
+	 color: rgb(255, 255, 255);
+	 background: padding-box rgb(3, 169, 244);
+}
+.btn_ButtonWithMargins_D {
+	 opacity: 0.25;
+}
+.btn_ButtonWithMargins_R {
+}
+.btn_ButtonWithMargins_S {
+	 background: padding-box rgb(1, 87, 155);
+}
+.btn_ButtonWithMargins_T {
+	 background: padding-box rgb(179, 229, 252);
+}
+.btn_ButtonWithMargins_V {
+	 border: 0px solid rgb(3, 169, 244);
+	 background: padding-box rgb(0, 98, 19);
+}
+.btn_Button_Navig_A {
+	 background: padding-box rgb(0, 139, 255);
+	 border-width: 0px;
+	 border-radius: 102px;
+	 font-size: 16px;
+	 text-align: center;
+	 font-family: fontawesome;
+	 text-decoration: none;
+	 color: rgb(255, 255, 255);
+}
+.btn_Button_Navig_D {
+	 background: padding-box rgb(228, 229, 230);
+	 font-size: 16px;
+	 font-family: fontawesome;
+	 text-decoration: none;
+	 color: rgb(255, 255, 255);
+}
+.btn_Button_Navig_R {
+}
+.btn_Button_Navig_S {
+}
+.btn_Button_Navig_T {
+	 background: padding-box rgb(255, 255, 255);
+	 transform: scaleX(0.9) scaleY(0.9) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skewX(0deg) skewY(0deg);
+	 text-decoration: none;
+	 color: rgb(91, 91, 91);
+}
+.btn_Button_Navig_V {
+	 border: 0px solid rgb(3, 169, 244);
+	 background: padding-box rgb(0, 98, 19);
+}
+.btn_Button_Radio_A {
+	 border: 2px solid rgb(15, 169, 249);
+	 border-radius: 50px;
+	 font-size: 18px;
+	 text-align: center;
+	 font-weight: bold;
+	 font-family: Arial;
+	 color: rgb(205, 79, 160);
+	 background: padding-box rgb(255, 255, 255);
+}
+.btn_Button_Radio_D {
+	 border: 2px solid rgb(178, 178, 178);
+	 opacity: 0.5;
+	 color: rgb(183, 183, 183);
+}
+.btn_Button_Radio_R {
+}
+.btn_Button_Radio_S {
+	 border: 2px solid rgb(159, 159, 159);
+	 color: rgb(255, 255, 255);
+	 background: radial-gradient(at 50% 50%, rgb(173, 210, 68) 0%, rgb(173, 210, 68) 32%, rgb(255, 255, 255) 40%) padding-box;
+}
+.btn_Button_Radio_T {
+	 transform: scaleX(0.9) scaleY(0.9) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skewX(0deg) skewY(0deg);
+	 border: 2px solid rgb(173, 210, 68);
+}
+.btn_Button_Radio_V {
+	 background: padding-box rgb(0, 98, 19);
+}
+.int_Seekbar_BG {
+	 background: padding-box rgb(245, 245, 245);
+	 border-image-source: url("../..i");
+	 border-image-slice: 0 fill;
+	 border-style: solid;
+	 border-color: rgb(0, 0, 0);
+	 border-width: 0px;
+	 border-radius: 6px;
+	 padding: 0px 5px;
+}
+.int_Seekbar_ldbar {
+	 background: padding-box rgb(0, 139, 255);
+}
+.int_Seekbar_plbar {
+	 background: padding-box rgb(212, 212, 212);
+}
+.int_Seekbar_plbtn {
+	 padding: 2px;
+	 margin: auto 6px;
+	 font-size: 12px;
+	 text-align: center;
+	 font-family: fontawesome;
+	 text-decoration: none;
+	 color: rgb(0, 139, 255);
+	 background-clip: padding-box;
+}
+.int_Page_Counter {
+	 font-size: 16px;
+	 text-align: center;
+	 color: rgb(255, 255, 255);
+	 background-clip: padding-box;
+}
+.int_TopBar_BgColor {
+	 background: padding-box rgb(0, 139, 255);
+}
+.int_BottomBar_BgColor {
+	 background: padding-box rgb(1, 87, 155);
+}
+.int_Image_Frame {
+	 box-shadow: rgba(106, 106, 106, 0.72) 0px 0px 16px 0px;
+	 border: 8px solid rgb(254, 254, 254);
+	 border-radius: 0px;
+	 background-clip: padding-box;
+}
+.int_Title_Module {
+	 font-size: 16px;
+	 font-weight: bold;
+	 color: rgb(255, 255, 255);
+	 background-clip: padding-box;
+}
+.int_Title_Course {
+	 font-size: 17px;
+	 font-weight: bold;
+	 color: rgb(255, 255, 255);
+	 background-clip: padding-box;
+}
+.int_DD_Style01 {
+	 padding: 5px 10px !important;
+	 color: rgb(255, 255, 255) !important;
+	 background: padding-box rgb(187, 187, 187) !important;
+}
+.int_DD_Target {
+	 padding: 5px 10px !important;
+	 color: rgb(255, 255, 255) !important;
+	 background: padding-box rgb(224, 224, 224) !important;
+}
+.int_DD_Subjects {
+	 color: rgb(255, 255, 255) !important;
+	 background: padding-box rgb(66, 66, 66) !important;
+}
+.int_QuizDD_Wrong {
+	 padding: 10px !important;
+	 color: rgb(255, 255, 255) !important;
+	 background: padding-box rgb(239, 83, 80) !important;
+}
+.int_QuizDD_Partial {
+	 padding: 10px !important;
+	 color: rgb(255, 255, 255) !important;
+	 background: padding-box rgb(136, 136, 136) !important;
+}
+.btn_Button_replay_A {
+	 background: padding-box rgb(255, 255, 255);
+	 border-width: 0px;
+	 border-radius: 102px;
+	 font-size: 16px;
+	 text-align: center;
+	 font-family: fontawesome;
+	 text-decoration: none;
+	 color: rgb(255, 255, 255);
+}
+.btn_Button_replay_D {
+	 opacity: 0.25;
+}
+.btn_Button_replay_R {
+}
+.btn_Button_replay_S {
+	 background: padding-box rgb(228, 229, 230);
+}
+.btn_Button_replay_T {
+	 background: padding-box rgb(255, 255, 255);
+	 transform: scaleX(0.9) scaleY(0.9) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skewX(0deg) skewY(0deg);
+	 text-decoration: none;
+	 color: rgb(91, 91, 91);
+}
+.btn_Button_replay_V {
+	 border: 0px solid rgb(3, 169, 244);
+	 background: padding-box rgb(0, 98, 19);
+}
+.int_thumb {
+	 background: padding-box rgb(255, 255, 255);
+	 box-shadow: rgba(50, 50, 50, 0.4) 0px 0px 8px 1px;
+	 border-style: solid;
+	 border-color: rgb(2, 134, 255);
+	 border-width: 0px 4px;
+	 border-radius: 10px;
+	 padding: 4px;
+	 margin: 7px auto auto;
+}
+.int_Course_Title {
+	 font-family: "Trebuchet MS";
+	 text-decoration: none;
+	 text-transform: uppercase;
+	 color: transparent;
+	 background-clip: padding-box;
+}
+.int_play_vid_container {
+	 background: padding-box rgb(255, 255, 255);
+	 border-width: 1px;
+	 border-radius: 0px;
+	 margin: 0px;
+}
+.int_container_shadow {
+	 background: padding-box rgb(255, 255, 255);
+	 box-shadow: rgba(50, 50, 50, 0.4) 0px 0px 6px 2px;
+}
+.int_running_text {
+	 font-size: 16px;
+	 font-family: "Trebuchet MS";
+	 text-decoration: none;
+	 color: rgb(86, 85, 85);
+	 background-clip: padding-box;
+}
+.int_instruction_text {
+	 font-size: 16px;
+	 font-family: "Trebuchet MS";
+	 font-style: italic;
+	 text-decoration: none;
+	 color: rgb(0, 139, 255);
+	 background-clip: padding-box;
+}
+.int_paragraph_text {
+	 padding: 0px;
+	 font-size: 16px;
+	 text-align: left;
+	 text-decoration: none;
+	 color: rgb(0, 0, 0);
+	 background-clip: padding-box;
+}
+.btn_mod_img_btn_A {
+	 background: padding-box rgb(0, 139, 255);
+	 padding: 15px 25px;
+	 font-size: 18px;
+	 text-align: center;
+	 text-decoration: none;
+	 color: rgb(255, 255, 255);
+}
+.btn_mod_img_btn_D {
+	 opacity: 0.25;
+}
+.btn_mod_img_btn_S {
+	 background: padding-box rgb(254, 196, 0);
+	 padding: 15px 25px;
+}
+.btn_mod_img_btn_T {
+	 background-clip: padding-box;
+}
+.int_Transcript {
+	 padding: 10px 0px 65px 10px;
+	 background-clip: padding-box;
+}
+.int_heading {
+	 background: padding-box rgb(0, 139, 255);
+	 padding: 10px 15px;
+	 font-size: 20px;
+	 text-align: center;
+	 font-weight: bold;
+	 font-family: "Trebuchet MS";
+	 text-decoration: none;
+	 color: rgb(255, 255, 255);
+}
+.btn_Button_custom_A {
+	 background: padding-box rgb(3, 169, 244);
+	 border-image-source: url("../..i");
+	 border-image-slice: 0 fill;
+	 border-style: solid;
+	 border-color: rgb(1, 87, 155);
+	 border-width: 0px;
+	 border-radius: 5px;
+	 padding: 10px;
+	 margin: 10px;
+	 font-size: 18px;
+	 text-align: center;
+	 font-weight: bold;
+	 text-decoration: none;
+	 color: rgb(255, 255, 255);
+}
+.btn_Button_custom_D {
+	 opacity: 0.25;
+}
+.btn_Button_custom_R {
+}
+.btn_Button_custom_S {
+	 background: padding-box rgb(1, 87, 155);
+}
+.btn_Button_custom_T {
+	 background: padding-box rgb(179, 229, 252);
+}
+.btn_Button_custom_V {
+	 border: 0px solid rgb(3, 169, 244);
+	 background: padding-box rgb(0, 98, 19);
+}
+.btn_trans_btn_A {
+	 background: padding-box rgba(0, 139, 255, 0.01);
+	 padding: 15px 25px;
+	 font-size: 18px;
+	 text-align: center;
+	 text-decoration: none;
+	 color: rgb(255, 255, 255);
+}
+.btn_trans_btn_D {
+	 opacity: 0.25;
+}
+.btn_trans_btn_S {
+	 padding: 15px 25px;
+	 background-clip: padding-box;
+}
+.btn_trans_btn_T {
+	 background-clip: padding-box;
+}
+.btn_Button_A {
+	 background: padding-box rgb(3, 169, 244) !important;
+	 border-style: solid !important;
+	 border-width: 0px !important;
+	 border-radius: 5px !important;
+	 font-size: 18px !important;
+	 text-align: center !important;
+	 font-weight: bold !important;
+	 text-decoration: none !important;
+	 color: rgb(255, 255, 255) !important;
+}
+.btn_Button_D {
+}
+.btn_Brainstorming_A {
+	 background: padding-box rgb(3, 169, 244) !important;
+	 border-style: solid !important;
+	 border-width: 0px !important;
+	 border-radius: 0px !important;
+	 font-size: 18px !important;
+	 text-align: center !important;
+	 font-weight: bold !important;
+	 text-decoration: none !important;
+	 color: rgb(255, 255, 255) !important;
+}
+.btn_Brainstorming_D {
+}
+.btn_Brainstorming_R {
+	 background-clip: padding-box;
+	 border-style: groove !important;
+	 border-color: rgb(0, 220, 19) !important;
+	 border-width: 5px !important;
+	 border-radius: 0px !important;
+}
+.btn_Button_Brainstorming_A {
+	 background: padding-box rgb(3, 169, 244) !important;
+	 border-style: solid !important;
+	 border-width: 0px !important;
+	 border-radius: 5px !important;
+	 font-size: 18px !important;
+	 font-weight: bold !important;
+	 text-decoration: none !important;
+	 color: transparent !important;
+}
+.btn_Button_Brainstorming_D {
+}
+.btn_Button_Brainstorming_R {
+	 background: padding-box rgb(3, 169, 244);
+	 font-size: 18px;
+	 text-decoration: none;
+	 color: transparent;
+}
+.int_OTS_Colour {
+	 background: padding-box rgb(0, 153, 255) !important;
+	 padding: 15px !important;
+	 margin: auto !important;
+	 font-size: 20px !important;
+	 text-align: center !important;
+	 font-family: myriadpro_semibold !important;
+	 text-decoration: none !important;
+	 color: rgb(255, 255, 255) !important;
+}
+.int_OTS_Colour:link {
+}
+.int_OST_design {
+	 background: padding-box rgb(255, 255, 255) !important;
+	 border-style: solid !important;
+	 border-color: rgb(0, 153, 255) !important;
+	 border-width: 0px 3px 3px !important;
+	 border-radius: 0px !important;
+	 padding: 10px 0px 20px 10px !important;
+	 margin: auto !important;
+}
+.btn_Mod_btn_style_A {
+	 background: padding-box rgb(0, 139, 255);
+	 padding: 15px;
+	 font-size: 16px;
+	 letter-spacing: 1px;
+	 line-height: 18px;
+	 text-align: center;
+	 text-decoration: none;
+	 color: rgb(255, 255, 255);
+}
+.btn_Mod_btn_style_D {
+	 opacity: 0.25;
+}
+.btn_Mod_btn_style_S {
+	 background: padding-box rgb(14, 112, 211);
+}
+.btn_Mod_btn_style_T {
+	 background: padding-box rgb(10, 85, 160);
+	 transform: scaleX(0.9) scaleY(0.9) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skewX(0deg) skewY(0deg);
+	 font-size: 18px;
+	 text-decoration: none;
+	 color: rgb(255, 255, 255);
+}
+.int_quict_instruction_txt {
+	 background: padding-box rgb(0, 139, 255);
+	 padding: 15px 20px 10px;
+	 margin: 15px auto auto;
+	 font-size: 15px;
+	 letter-spacing: 1px;
+	 line-height: 20px;
+	 text-align: left;
+	 font-family: Arial;
+	 text-decoration: none;
+	 color: rgb(255, 255, 255);
+}
+.int_DND_que_text {
+	 font-size: 16px;
+	 letter-spacing: 1px;
+	 line-height: 20px;
+	 font-weight: bold;
+	 text-decoration: none;
+	 color: rgb(0, 0, 0);
+	 background-clip: padding-box;
+}
+.int_DND_seqn1 {
+	 background: padding-box rgb(255, 255, 255);
+	 box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 6px 2px;
+	 border-style: solid;
+	 border-color: rgb(254, 9, 62);
+	 border-width: 0px 0px 0px 125px;
+	 border-radius: 15px;
+	 padding: 0px 10px;
+	 font-size: 16px;
+	 text-align: center;
+	 text-decoration: none;
+	 color: rgb(0, 0, 0);
+}
+.int_DND_seqn2 {
+	 background: padding-box rgb(255, 255, 255);
+	 box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 6px 2px;
+	 border-style: solid;
+	 border-color: rgb(107, 199, 0);
+	 border-width: 0px 0px 0px 125px;
+	 border-radius: 15px;
+	 padding: 0px 10px;
+	 font-size: 16px;
+	 text-align: center;
+	 text-decoration: none;
+	 color: rgb(0, 0, 0);
+}
+.int_DND_seqn3 {
+	 box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 6px 2px;
+	 border-style: solid;
+	 border-color: rgb(255, 178, 3);
+	 border-width: 0px 0px 0px 125px;
+	 border-radius: 15px;
+	 padding: 0px 10px;
+	 font-size: 16px;
+	 text-align: center;
+	 text-decoration: none;
+	 color: rgb(0, 0, 0);
+	 background-clip: padding-box;
+}
+.int_DND_seqn4 {
+	 box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 6px 2px;
+	 border-style: solid;
+	 border-color: rgb(0, 139, 255);
+	 border-width: 0px 0px 0px 125px;
+	 border-radius: 15px;
+	 padding: 0px 10px;
+	 font-size: 16px;
+	 text-align: center;
+	 text-decoration: none;
+	 color: rgb(0, 0, 0);
+	 background-clip: padding-box;
+}
+.int_DND_circle {
+	 background: padding-box rgb(232, 232, 232);
+	 font-size: 18px;
+	 text-align: center;
+	 font-weight: bold;
+	 text-decoration: none;
+	 color: rgb(15, 112, 211);
+}
+.int_feedback_text {
+	 margin: 10px 20px;
+	 font-size: 16px;
+	 font-family: "Trebuchet MS";
+	 text-decoration: none;
+	 color: rgb(51, 51, 51);
+	 background-clip: padding-box;
+}
+.int_heading_1 {
+	 font-size: 20px;
+	 letter-spacing: 1px;
+	 font-weight: bold;
+	 text-decoration: none;
+	 color: rgb(0, 139, 255);
+	 background-clip: padding-box;
+}
+.btn_arrow_btn_A {
+	 border-image-source: url("../../data/media/common/left.png");
+	 border-image-slice: 0 fill;
+	 border-style: solid;
+	 border-color: rgb(0, 77, 64);
+	 border-width: 0px;
+	 border-radius: 0px;
+	 padding: 0px 0px 0px 21px;
+	 background-clip: padding-box;
+}
+.btn_arrow_btn_D {
+	 opacity: 0.25;
+}
+.btn_arrow_btn_S {
+	 background-clip: padding-box;
+}
+.btn_arrow_btn_T {
+	 background-clip: padding-box;
+}
+.int_OST_Text {
+	 background: padding-box rgb(0, 153, 255);
+	 border-width: 0px;
+	 border-radius: 0px;
+	 padding: 10px;
+	 font-size: 20px;
+	 text-align: left;
+	 text-decoration: none;
+	 color: rgb(255, 255, 255);
+}
+.btn_Identify_Value_Button_A {
+	 background: padding-box rgb(3, 169, 244) !important;
+	 border-style: solid !important;
+	 border-width: 0px !important;
+	 border-radius: 5px !important;
+	 font-size: 18px !important;
+	 text-align: center !important;
+	 font-weight: bold !important;
+	 text-decoration: none !important;
+	 color: rgb(255, 255, 255) !important;
+}
+.btn_Identify_Value_Button_D {
+}
+.btn_Identify_Value_Button_R {
+	 background-clip: padding-box;
+	 border-style: groove !important;
+	 border-color: rgb(252, 63, 0) !important;
+	 border-width: 5px !important;
+	 border-radius: 0px !important;
+	 padding: 0px !important;
+}
+.btn_Button_Identify_Value_A {
+	 text-align: center;
+	 text-decoration: none;
+	 color: transparent;
+	 background-clip: padding-box;
+}
+.btn_Button_Identify_Value_D {
+}
+.int_DND_drag_shape1 {
+	 background: padding-box rgb(0, 139, 255);
+	 padding: 10px 0px;
+	 font-size: 18px;
+	 letter-spacing: 2px;
+	 line-height: 20px;
+	 text-align: center;
+	 text-decoration: none;
+	 color: rgb(255, 255, 255);
+}
+.int_DND_tar_area {
+	 background: padding-box rgb(255, 255, 255);
+	 box-shadow: rgb(240, 240, 240) 0px 0px 20px 1px inset;
+	 border-style: solid;
+	 border-color: rgb(222, 222, 222);
+	 border-width: 1px;
+	 border-radius: 0px;
+	 letter-spacing: 1px;
+	 line-height: 20px;
+	 text-align: center;
+	 font-weight: bold;
+	 text-decoration: none;
+	 color: rgb(0, 0, 0);
+}
+.int_table_shadow {
+	 background: padding-box rgb(255, 255, 255);
+	 box-shadow: rgba(50, 50, 50, 0.4) 0px 0px 6px 2px;
+}
+.btn_Button_Identify_A {
+	 background: padding-box rgb(3, 169, 244) !important;
+	 border-style: solid !important;
+	 border-width: 0px !important;
+	 border-radius: 5px !important;
+	 font-size: 18px !important;
+	 text-align: center !important;
+	 font-weight: bold !important;
+	 text-decoration: none !important;
+	 color: rgb(255, 255, 255) !important;
+}
+.btn_Button_Identify_D {
+}
+.btn_Button_Identify_R {
+	 background-clip: padding-box;
+	 border-style: groove !important;
+	 border-color: rgb(151, 255, 0) !important;
+	 border-width: 4px !important;
+	 border-radius: 0px !important;
+}
+.btn_Button_Example_1_A {
+	 background: padding-box rgb(3, 169, 244) !important;
+	 border-style: solid !important;
+	 border-width: 0px !important;
+	 border-radius: 5px !important;
+	 font-size: 18px !important;
+	 text-align: center !important;
+	 font-weight: bold !important;
+	 text-decoration: none !important;
+	 color: rgb(255, 255, 255) !important;
+}
+.btn_Button_Example_1_D {
+}
+.btn_Button_Example_1_R {
+	 border-style: groove !important;
+	 border-color: rgb(0, 255, 75) !important;
+	 border-width: 5px !important;
+	 border-radius: 0px !important;
+	 background-clip: padding-box !important;
+}
+.int_round_img {
+	 border-width: 0px;
+	 border-radius: 150px;
+	 background-clip: padding-box;
+}
+.int_box_text {
+	 background: padding-box rgb(240, 240, 240);
+	 border-style: solid;
+	 border-color: rgb(205, 205, 205);
+	 border-width: 1px;
+	 border-radius: 0px;
+	 font-size: 15px;
+	 line-height: 26px;
+	 text-align: center;
+	 font-weight: bold;
+	 text-decoration: none;
+	 color: rgb(2, 2, 2);
+}
+.btn_radio_button1_A {
+	 background: padding-box rgb(0, 139, 255);
+	 padding: 10px 15px;
+	 margin: 5px auto;
+	 font-size: 16px;
+	 text-align: left;
+	 font-family: "Trebuchet MS";
+	 text-decoration: none;
+	 color: rgb(255, 255, 255);
+}
+.btn_radio_button1_D {
+	 opacity: 0.25;
+}
+.btn_radio_button1_S {
+	 background: padding-box rgb(238, 197, 0);
+}
+.btn_radio_button1_T {
+	 background-clip: padding-box;
+}
+.int_shadow {
+	 box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 5px 1px;
+	 background-clip: padding-box;
+}
+.int_DND_text_with_shadow {
+	 box-shadow: -1px 2px 6px 0px;
+	 font-size: 18px;
+	 letter-spacing: 1px;
+	 line-height: 18px;
+	 text-align: center;
+	 font-weight: bold;
+	 text-decoration: none;
+	 color: rgb(0, 0, 0);
+	 background-clip: padding-box;
+}
+.int_DND_qua_box {
+	 background: padding-box rgb(234, 238, 244);
+	 box-shadow: rgb(214, 214, 214) -3px 3px 5px 1px;
+	 font-size: 18px;
+	 letter-spacing: 2px;
+	 line-height: 20px;
+	 text-align: left;
+	 font-weight: bold;
+	 text-decoration: none;
+	 color: rgb(0, 0, 0);
+}
+.int_DND_Label_text {
+	 border-style: solid;
+	 border-color: rgb(222, 222, 222);
+	 border-width: 1px 2px 2px;
+	 border-radius: 0px;
+	 font-size: 18px;
+	 letter-spacing: 1px;
+	 line-height: 20px;
+	 text-align: center;
+	 font-weight: bold;
+	 text-decoration: none;
+	 color: rgb(0, 0, 0);
+	 background-clip: padding-box;
+}
+.int_DND_text_style {
+	 font-size: 15px;
+	 letter-spacing: 1px;
+	 line-height: 30px;
+	 font-weight: bold;
+	 font-family: "Trebuchet MS";
+	 text-decoration: none;
+	 color: rgb(0, 0, 0);
+	 background-clip: padding-box;
+}
+.int_DND_Bank_style {
+	 background: padding-box rgb(255, 255, 255);
+	 border-style: dashed;
+	 border-color: rgb(0, 0, 0);
+	 border-width: 0px 0px 2px;
+	 border-radius: 0px;
+}
+.int_DND_opt {
+	 background: padding-box rgb(243, 243, 243);
+	 border-style: solid;
+	 border-color: rgb(222, 222, 222);
+	 border-width: 1px;
+	 border-radius: 5px;
+	 padding: 10px 20px;
+	 font-size: 16px;
+	 letter-spacing: 1px;
+	 line-height: 16px;
+	 text-align: center;
+	 font-weight: bold;
+	 text-decoration: none;
+	 color: rgb(15, 112, 211);
+}
+.int_bg_shadow {
+}
+.int_option_shadow {
+	 background: padding-box rgb(255, 255, 255);
+	 box-shadow: rgba(50, 50, 50, 0.4) 0px 0px 6px 2px;
+	 padding: 10px;
+}
+.int_Assessment {
+	 border-style: solid;
+	 border-color: rgb(3, 169, 244);
+	 border-width: 3px;
+	 border-radius: 10px;
+	 background-clip: padding-box;
+}
+.btn_Toggle_Button_A{
+	background: rgb(255, 255, 255);
+	border-style:;
+	border-color:;
+	border-width:0px 0px 0px 0px;
+	border-radius:102px 102px 102px 102px;
+	background-clip: padding-box;
+}
+.btn_Toggle_Button_D {
+}
+.btn_Toggle_Button_R {
+}
+.btn_Toggle_Button_S {
+	 background-clip: padding-box;
+}
+.btn_Toggle_Button_T {
+}

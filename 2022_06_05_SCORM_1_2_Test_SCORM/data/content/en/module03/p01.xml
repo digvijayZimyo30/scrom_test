@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<root>
+  <elements>
+    <object id="Q1" _ver="2" template="QUIZ" type="Radio" random="1" cor="1,0" buttons="1,1,1" tries="2" quest="1" showbg="1" scored="0" fdbck="1" showans="1">
+      <i_question>
+        <node><![CDATA[Option 1 is correct.<br>]]></node>
+      </i_question>
+      <i_instruction>
+        <node><![CDATA[Select the correct answer and then press Submit.]]></node>
+      </i_instruction>
+      <i_corfdbck>
+        <node><![CDATA[Your answer is correct.<b></b>]]></node>
+      </i_corfdbck>
+      <i_incorfdbck>
+        <node><![CDATA[Your answer is incorrect. The American psychologist and a professor of psychology at the Stanford university, Carol Dweck, has spent over 30 years researching the Growth Mindset and its impact.]]></node>
+      </i_incorfdbck>
+      <i_partialfdbck>
+        <node><![CDATA[That's partially correct.]]></node>
+      </i_partialfdbck>
+      <i_triesfdbck>
+        <node><![CDATA[You have exhausted all tries.]]></node>
+      </i_triesfdbck>
+      <i_showfdbck>
+        <node><![CDATA[Your answer is incorrect.<b></b><br>]]></node>
+      </i_showfdbck>
+      <i_option>
+        <node><![CDATA[Option 1]]></node>
+        <node><![CDATA[Option 2]]></node>
+      </i_option>
+    </object>
+  </elements>
+  <timeline fps="15">
+    <label/>
+    <layer id="L0" type="ACTIONS">
+      <span ac="Stop;">
+        <frm num="10"/>
+        <frm num="10"/>
+      </span>
+    </layer>
+    <layer id="Q1" type="QUIZ">
+      <span an="0" ease="0" hd="0" xreg="left" w="" h="">
+        <frm num="1" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="10" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+  </timeline>
+</root>

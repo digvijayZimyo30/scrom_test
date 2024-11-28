@@ -1,0 +1,455 @@
+﻿<?xml version="1.0"?>
+<root>
+  <elements>
+    <object id="L1" template="CONTENT" pub="1">
+      <i_content>
+        <node><![CDATA[Course Title&nbsp;]]></node>
+      </i_content>
+    </object>
+    <object id="L11" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_Navig_D" n_styl="btn_Button_Navig_A" t_styl="btn_Button_Navig_T" s_styl="btn_Button_Navig_S" v_styl="btn_Button_Navig_V" b_typ="1" h="19" w="22" n_istyl="i_pause" s_istyl="i2" t_stat="1" x_styl="btn_Button_Navig_X">
+      <i_content>
+        <node><![CDATA[<img id="i_pause" style="max-width: 22px; vertical-align: middle; width: 100%; -webkit-user-drag: initial; pointer-events: auto;" ondblclick="_WK(this)" src="../data/media/common/i_pause.png?rnd=1472179383579">]]></node>
+      </i_content>
+    </object>
+    <object id="L13" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_Navig_D" n_styl="btn_Button_Navig_A" t_styl="btn_Button_Navig_T" s_styl="btn_Button_Navig_S" v_styl="btn_Button_Navig_V" b_typ="1" h="16" w="19" n_istyl="audio_on" s_istyl="i1" t_stat="1" x_styl="btn_Button_Navig_X">
+      <i_content>
+        <node><![CDATA[<img id="audio_on" style="max-width: 19px; vertical-align: middle; width: 100%; -webkit-user-drag: initial; pointer-events: auto;" ondblclick="ed_openmedialib(this)" src="../data/media/common/audio_on.png?rnd=1462717927045">]]></node>
+      </i_content>
+    </object>
+    <object id="T1" template="HOLDER">
+      <i_content>
+        <node><![CDATA[
+							<table role="presentation" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000" width="100%" style="border-collapse: collapse; ">
+								<tbody><tr><td width="74%" valign="bottom">@CHLD_L3$</td><td align="right">@CHLD_T2$</td></tr>
+							</tbody></table>
+					]]></node>
+      </i_content>
+    </object>
+    <object id="L3" template="SEEKBAR" plyr="int_Seekbar_BG" plbtn="int_Seekbar_plbtn" ldbar="int_Seekbar_ldbar" plbar="int_Seekbar_plbar" h="6" pub="1" seek="3" hCC="0" sbtn="0" rbtn="L4" stmb="1" tmbtn="int_thumb" pbtn="1" shc="0"/>
+    <object id="T2" template="HOLDER">
+      <i_content>
+        <node><![CDATA[
+							<table role="presentation" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000" width="100%" style="border-collapse: collapse; height: 100%;" height="100%">
+								<tbody><tr><td align="right">@CHLD_B2$@CHLD_L4$@CHLD_L5$@CHLD_L9$@CHLD_L2$</td></tr>
+							</tbody></table>
+					]]></node>
+      </i_content>
+    </object>
+    <object id="L4" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_replay_D" n_styl="btn_Button_replay_A" t_styl="btn_Button_replay_T" s_styl="btn_Button_replay_S" v_styl="" r_styl="btn_Button_replay_R" x_styl="btn_Button_replay_X">
+      <i_content>
+        <node><![CDATA[<span style="color: rgb(0, 139, 255); "><span style=""></span>&nbsp;</span>]]></node>
+      </i_content>
+    </object>
+    <object id="L2" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_replay_D" n_styl="btn_Button_replay_A" t_styl="btn_Button_replay_T" s_styl="btn_Button_replay_S" v_styl="" r_styl="btn_Button_replay_R" x_styl="btn_Button_replay_X">
+      <i_content>
+        <node><![CDATA[<span style="color: rgb(0, 139, 255);"></span><br>]]></node>
+      </i_content>
+    </object>
+    <object id="T3" template="HOLDER">
+      <i_content>
+        <node><![CDATA[
+							<table role="presentation" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000" width="100%" style="border-collapse: collapse; ">
+								<tbody><tr><td align="right">@CHLD_L6$@CHLD_L7$@CHLD_L8$</td></tr>
+							</tbody></table>
+					]]></node>
+      </i_content>
+    </object>
+    <object id="L6" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_replay_D" n_styl="btn_Button_replay_A" t_styl="btn_Button_replay_T" s_styl="btn_Button_replay_S" v_styl="" r_styl="btn_Button_replay_R" x_styl="btn_Button_replay_X">
+      <i_content>
+        <node><![CDATA[<span style="color: rgb(0, 139, 255); "><span style=""></span>&nbsp;</span>]]></node>
+      </i_content>
+    </object>
+    <object id="L7" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_Navig_D" n_styl="btn_Button_Navig_A" t_styl="btn_Button_Navig_T" s_styl="btn_Button_Navig_S" v_styl="" a_stat="0" pub="1">
+      <i_content>
+        <node><![CDATA[&nbsp;]]></node>
+      </i_content>
+    </object>
+    <object id="L8" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_replay_D" n_styl="btn_Button_replay_A" t_styl="btn_Button_replay_T" s_styl="btn_Button_replay_S" v_styl="" r_styl="btn_Button_replay_R" x_styl="btn_Button_replay_X">
+      <i_content>
+        <node><![CDATA[<span style="color: rgb(0, 139, 255);"></span><br>]]></node>
+      </i_content>
+    </object>
+    <object id="L9" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_Navig_D" n_styl="btn_Button_Navig_A" t_styl="btn_Button_Navig_T" s_styl="btn_Button_Navig_S" v_styl="" a_stat="0" pub="1">
+      <i_content>
+        <node><![CDATA[&nbsp;]]></node>
+      </i_content>
+    </object>
+    <object id="L5" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_Navig_D" n_styl="btn_Button_Navig_A" t_styl="btn_Button_Navig_T" s_styl="btn_Button_Navig_S" v_styl="" a_stat="0" pub="1">
+      <i_content>
+        <node><![CDATA[]]></node>
+      </i_content>
+    </object>
+    <object id="T4" template="HOLDER">
+      <i_content>
+        <node><![CDATA[
+							<table role="presentation" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000" width="100%" style="border-collapse: collapse; ">
+								<tbody><tr><td align="right">@CHLD_L10$@CHLD_L15$@CHLD_L12$@CHLD_L14$</td></tr>
+							</tbody></table>
+					]]></node>
+      </i_content>
+    </object>
+    <object id="L10" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_replay_D" n_styl="btn_Button_replay_A" t_styl="btn_Button_replay_T" s_styl="btn_Button_replay_S" v_styl="" r_styl="btn_Button_replay_R" x_styl="btn_Button_replay_X">
+      <i_content>
+        <node><![CDATA[<span style="color: rgb(0, 139, 255); "><span style=""></span>&nbsp;</span>]]></node>
+      </i_content>
+    </object>
+    <object id="L12" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_Navig_D" n_styl="btn_Button_Navig_A" t_styl="btn_Button_Navig_T" s_styl="btn_Button_Navig_S" v_styl="" a_stat="0" pub="1">
+      <i_content>
+        <node><![CDATA[&nbsp;]]></node>
+      </i_content>
+    </object>
+    <object id="L14" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_replay_D" n_styl="btn_Button_replay_A" t_styl="btn_Button_replay_T" s_styl="btn_Button_replay_S" v_styl="" r_styl="btn_Button_replay_R" x_styl="btn_Button_replay_X">
+      <i_content>
+        <node><![CDATA[<span style="color: rgb(0, 139, 255);"></span><br>]]></node>
+      </i_content>
+    </object>
+    <object id="L15" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_Navig_D" n_styl="btn_Button_Navig_A" t_styl="btn_Button_Navig_T" s_styl="btn_Button_Navig_S" v_styl="" a_stat="0" pub="1">
+      <i_content>
+        <node><![CDATA[]]></node>
+      </i_content>
+    </object>
+    <object id="T5" template="HOLDER">
+      <i_content>
+        <node><![CDATA[
+							<table role="presentation" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000" width="100%" style="border-collapse: collapse; ">
+								<tbody><tr><td width="74%" valign="bottom">@CHLD_L16$</td><td align="right">@CHLD_T6$</td></tr>
+							</tbody></table>
+					]]></node>
+      </i_content>
+    </object>
+    <object id="T6" template="HOLDER">
+      <i_content>
+        <node><![CDATA[
+							<table role="presentation" cellspacing="0" cellpadding="0" border="1" bordercolor="#000000" width="100%" style="border-collapse: collapse; ">
+								<tbody><tr><td align="right">@CHLD_L17$@CHLD_L18$@CHLD_L19$@CHLD_L20$</td></tr>
+							</tbody></table>
+					]]></node>
+      </i_content>
+    </object>
+    <object id="L16" template="SEEKBAR" plyr="int_Seekbar_BG" plbtn="int_Seekbar_plbtn" ldbar="int_Seekbar_ldbar" plbar="int_Seekbar_plbar" h="6" pub="1" seek="3" hCC="0" sbtn="0" rbtn="L17" stmb="1" tmbtn="int_thumb" pbtn="1"/>
+    <object id="L17" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_replay_D" n_styl="btn_Button_replay_A" t_styl="btn_Button_replay_T" s_styl="btn_Button_replay_S" v_styl="" r_styl="btn_Button_replay_R" x_styl="btn_Button_replay_X">
+      <i_content>
+        <node><![CDATA[<span style="color: rgb(0, 139, 255); "><span style=""></span>&nbsp;</span>]]></node>
+      </i_content>
+    </object>
+    <object id="L18" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_Navig_D" n_styl="btn_Button_Navig_A" t_styl="btn_Button_Navig_T" s_styl="btn_Button_Navig_S" v_styl="" a_stat="0" pub="1">
+      <i_content>
+        <node><![CDATA[]]></node>
+      </i_content>
+    </object>
+    <object id="L19" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_Navig_D" n_styl="btn_Button_Navig_A" t_styl="btn_Button_Navig_T" s_styl="btn_Button_Navig_S" v_styl="" a_stat="0" pub="1">
+      <i_content>
+        <node><![CDATA[&nbsp;]]></node>
+      </i_content>
+    </object>
+    <object id="L20" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Button_replay_D" n_styl="btn_Button_replay_A" t_styl="btn_Button_replay_T" s_styl="btn_Button_replay_S" v_styl="" r_styl="btn_Button_replay_R" x_styl="btn_Button_replay_X">
+      <i_content>
+        <node><![CDATA[<span style="color: rgb(0, 139, 255);"></span><br>]]></node>
+      </i_content>
+    </object>
+    <object id="B2" type="1" template="BUTTON" btn_ver="2" i_state="1" d_styl="btn_Toggle_Button_D" n_styl="btn_Toggle_Button_A" t_styl="btn_Toggle_Button_T" s_styl="btn_Toggle_Button_S" v_styl="" r_styl="btn_Toggle_Button_R" x_styl="btn_Toggle_Button_X" b_typ="1" h="19" w="23" n_istyl="i91" s_istyl="i92" t_istyl="i92" d_istyl="i91" r_istyl="i91" v_istyl="undefined" x_istyl="undefined" t_stat="1">
+      <i_content>
+        <node><![CDATA[<br>]]></node>
+      </i_content>
+    </object>
+    <object id="L21" template="CONTENT" hTab="1">
+      <i_content>
+        <node><![CDATA[Next123&nbsp;]]></node>
+      </i_content>
+    </object>
+  </elements>
+  <timeline fps="15">
+    <label>
+      <frm num="1" name="l_interactive_screen"/>
+      <frm num="51" name="l_menu"/>
+      <frm num="20" name="l_video_next"/>
+      <frm num="64" name="l_assessment"/>
+      <frm num="83" name="l_interactive"/>
+    </label>
+    <layer id="L0" type="ACTIONS">
+      <span ac="Stop;">
+        <frm num="16"/>
+        <frm num="16"/>
+      </span>
+      <span ac="stop;">
+        <frm num="40"/>
+        <frm num="40"/>
+      </span>
+      <span ac="stop;">
+        <frm num="56"/>
+        <frm num="56"/>
+      </span>
+      <span ac="stop;">
+        <frm num="76"/>
+        <frm num="76"/>
+      </span>
+      <span ac="stop;">
+        <frm num="94"/>
+        <frm num="94"/>
+      </span>
+    </layer>
+    <layer id="L1" type="CONTENT" vA="1" lb="Course Title" pub="1" hide="0">
+      <span an="0" ease="0" ac="" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="225" h="40" class="int_Title_Course" fl="0" frmt=";c:rgb(0, 139, 255)" bnd="7" yreg="top" vdp="0">
+        <frm num="52" x="10" y="0" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="56" x="10" y="0" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+      <dv sz="450">
+        <span xreg="left" w="" h="" fl="4" vdp="0" frmt=";a:center">
+          <frm x="" y="-31"/>
+          <frm x="" y="-31"/>
+        </span>
+      </dv>
+    </layer>
+    <layer id="C3" type="CLIP" clipid="C3" lb="PlayPauseAudioButton" hide="1">
+      <span an="0" ease="0" hd="0" xreg="left" w="74" fl="2" h="31">
+        <frm num="45" x="" y="-35" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="48" x="" y="-35" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="C2" type="CLIP" clipid="C2" lb="controls_2">
+      <span an="0" ease="0" hd="0" xreg="left" w="" h="100" fl="4">
+        <frm num="3" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="19" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="C1" type="CLIP" clipid="C1" lb="controls">
+      <span an="0" ease="0" hd="0" xreg="left" w="" h="100" fl="4">
+        <frm num="23" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="40" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="T3" type="HOLDER">
+      <span an="0" ease="0" hd="0" xreg="left" w="176" h="" class="" imgs="50" fl="2" mR="7">
+        <frm num="64" x="" y="-69" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="76" x="" y="-69" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="L6" type="BUTTON" lb="replay_Button" hide="0" holder="T3">
+      <span an="0" ease="0" ac="ReloadPage;" bgI="" hd="0" xreg="right" bgA="center" bgR="no-repeat" w="49" h="49" class="" fl="4" frmt="" bnd="0" i_state="0" yreg="bottom" dp="1" afl="bottom">
+        <frm num="64" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="76" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="L7" type="BUTTON" lb="Next Button" hide="0" pub="1" holder="T3">
+      <span an="0" ease="0" ac="BehaveAsNext;" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="67" h="67" class="" fl="4" frmt=";s:30" bnd="2" yreg="top" dp="1" afl="bottom" mL="2" i_state="1" mR="2">
+        <frm num="64" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="76" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="L8" type="BUTTON" lb="replay_Button" hide="0" holder="T3">
+      <span an="0" ease="0" ac="ToggleFullScreen:d_content;" bgI="" hd="0" xreg="right" bgA="center" bgR="no-repeat" w="49" h="49" class="" fl="4" frmt="" bnd="0" i_state="1" yreg="bottom" dp="1" afl="bottom">
+        <frm num="64" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="76" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="T4" type="HOLDER">
+      <span an="0" ease="0" hd="0" xreg="left" w="246" h="" class="" imgs="50" fl="2" mR="7">
+        <frm num="82" x="" y="-69" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="94" x="" y="-69" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="L10" type="BUTTON" lb="replay_Button" hide="0" holder="T4">
+      <span an="0" ease="0" ac="ReloadPage;" bgI="" hd="0" xreg="right" bgA="center" bgR="no-repeat" w="49" h="49" class="" fl="4" frmt="" bnd="0" i_state="1" yreg="bottom" dp="1" afl="bottom">
+        <frm num="82" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="94" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="L15" type="BUTTON" lb="Next Button" hide="0" pub="1" holder="T4">
+      <span an="0" ease="0" ac="BehaveAsPrev;" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="67" h="67" class="" fl="4" frmt=";s:30" bnd="1" yreg="top" dp="1" afl="bottom" mL="2" i_state="1">
+        <frm num="82" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="94" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="L12" type="BUTTON" lb="Next Button" hide="0" pub="1" holder="T4">
+      <span an="0" ease="0" ac="BehaveAsNext;" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="67" h="67" class="" fl="4" frmt=";s:30" bnd="2" yreg="top" dp="1" afl="bottom" mL="5" i_state="1" mR="2">
+        <frm num="82" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="94" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+    <layer id="L14" type="BUTTON" lb="replay_Button" hide="0" holder="T4">
+      <span an="0" ease="0" ac="ToggleFullScreen:d_content;" bgI="" hd="0" xreg="right" bgA="center" bgR="no-repeat" w="49" h="49" class="" fl="4" frmt="" bnd="0" i_state="1" yreg="bottom" dp="1" afl="bottom">
+        <frm num="82" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        <frm num="94" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+      </span>
+    </layer>
+  </timeline>
+  <clips>
+    <clip id="C3">
+      <label/>
+      <layer id="L0" type="ACTIONS">
+        <span ac="stop;">
+          <frm num="4"/>
+          <frm num="4"/>
+        </span>
+      </layer>
+      <layer id="L11" type="BUTTON">
+        <span an="0" ease="0" ac="PauseUnpause:2;" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="30" h="30" class="" fl="0" bnd="11">
+          <frm num="1" x="" y="1" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="4" x="" y="1" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+      <layer id="L13" type="BUTTON">
+        <span an="0" ease="0" ac="SetAudioVolume:2;" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="30" h="30" class="" fl="0" bnd="12">
+          <frm num="1" x="40" y="1" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="4" x="40" y="1" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+    </clip>
+    <clip id="C1">
+      <label>
+        <frm num="1" name="l_show_controls"/>
+        <frm num="26" name="l_hide_controls"/>
+      </label>
+      <layer id="L0" type="ACTIONS">
+        <span ac="Stop;CUSTOM:cust_checkMove:;">
+          <frm num="19"/>
+          <frm num="19"/>
+        </span>
+        <span ac="stop;">
+          <frm num="40"/>
+          <frm num="40"/>
+        </span>
+      </layer>
+      <layer id="T1" type="HOLDER">
+        <span an="fade-in-bottom" ease="0" hd="0" xreg="left" w="" h="" class="" imgs="50" fl="4">
+          <frm num="7" x="" y="-69" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="16" x="" y="-69" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+        <span an="0" ease="0" hd="0" xreg="left" w="" h="" class="" imgs="50" fl="4">
+          <frm num="17" x="" y="-69" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="27" x="" y="-69" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+        <span an="fade-out-bottom" ease="0" hd="0" xreg="left" w="" h="" class="" imgs="50" fl="4">
+          <frm num="28" x="" y="-69" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="37" x="" y="-69" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+      <layer id="T2" type="HOLDER" holder="T1">
+        <span an="0" ease="0" hd="0" xreg="left" w="305" h="" class="" imgs="50" fl="4" mR="7">
+          <frm num="7" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="37" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+      <layer id="L3" type="SEEKBAR" hide="0" pub="1" holder="T1">
+        <span an="0" ease="0" hd="0" xreg="left" w="" h="" smedia="VIDEO" fl="4" yreg="top" mL="5" mT="5" mR="5" mB="5">
+          <frm num="7" x="" y="-6" o="1"/>
+          <frm num="37" x="" y="-6" o="1"/>
+        </span>
+        <dv sz="300">
+          <span xreg="left" w="" h="" fl="4" yreg="top" mL="5" mT="5" mR="" mB="5" vdp="1">
+            <frm x="" y="-6"/>
+            <frm x="" y="-6"/>
+          </span>
+        </dv>
+      </layer>
+      <layer id="B2" type="BUTTON" holder="T2">
+        <span an="0" ease="0" ac="SetAudioVolume:2;" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="49" h="49" class="" imgs="" fl="4" dp="1" bnd="12" afl="middle" mR="3" oac="ShowToolTip:0a:L1:Audio on/off:;" rac="ShowToolTip:0a:L21:Audio on/off:;">
+          <frm num="7" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="37" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+      <layer id="L4" type="BUTTON" lb="replay_Button" hide="0" holder="T2">
+        <span an="0" ease="0" ac="ReplaySeekBar:L3;" bgI="" hd="0" xreg="right" bgA="center" bgR="no-repeat" w="49" h="49" class="" fl="4" frmt="" bnd="0" i_state="1" yreg="bottom" dp="1" afl="bottom" rac="ShowToolTip:0a:L21:Replay:;">
+          <frm num="7" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="37" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+      <layer id="L5" type="BUTTON" lb="Prev Button" hide="0" pub="1" holder="T2">
+        <span an="0" ease="0" ac="CUSTOM:cust_autohide_onn:;BehaveAsPrev;" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="67" h="67" class="" fl="4" frmt=";s:30" bnd="1" yreg="top" dp="1" afl="bottom" mL="2" i_state="1" rac="ShowToolTip:0a:L21:Back:;">
+          <frm num="7" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="37" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+      <layer id="L9" type="BUTTON" lb="Next Button" hide="0" pub="1" holder="T2">
+        <span an="0" ease="0" ac="CUSTOM:cust_autohide_onn:;BehaveAsNext;" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="67" h="67" class="" fl="4" frmt=";s:30" bnd="2" yreg="top" dp="1" afl="bottom" mL="5" i_state="1" mR="2" rac="ShowToolTip:0b:L21:Next:;">
+          <frm num="7" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="37" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+      <layer id="L2" type="BUTTON" lb="fullscreen_Button" hide="0" holder="T2">
+        <span an="0" ease="0" ac="ToggleFullScreen:d_content;" bgI="" hd="0" xreg="right" bgA="center" bgR="no-repeat" w="49" h="49" class="" fl="4" frmt="" bnd="0" i_state="1" yreg="bottom" dp="1" afl="bottom" rac="ShowToolTip:0a:L21:Full Screen:;">
+          <frm num="7" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="37" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+      <layer id="L21" type="CONTENT" hide="0">
+        <span an="0" ease="0" ac="" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" class="int_QuizRadioChk" imgs="50" fl="0" w="" frmt=";a:center;s:12;f:Trebuchet MS;c:rgb(0, 139, 255)" h="">
+          <frm num="7" x="-190" y="98" o="1" rX="0" rY="0" sX="1" sY="1" w="72" h=""/>
+          <frm num="37" x="-190" y="98" o="1" rX="0" rY="0" sX="1" sY="1" w="72" h=""/>
+        </span>
+      </layer>
+    </clip>
+    <clip id="C2">
+      <label>
+        <frm num="1" name="l_show_controls"/>
+        <frm num="26" name="l_hide_controls"/>
+      </label>
+      <layer id="L0" type="ACTIONS">
+        <span ac="Stop;CUSTOM:cust_checkMove:;">
+          <frm num="19"/>
+          <frm num="19"/>
+        </span>
+        <span ac="stop;">
+          <frm num="40"/>
+          <frm num="40"/>
+        </span>
+      </layer>
+      <layer id="T5" type="HOLDER">
+        <span an="fade-in-bottom" ease="0" hd="0" xreg="left" w="" h="" class="" imgs="50" fl="4">
+          <frm num="7" x="" y="-69" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="16" x="" y="-69" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+        <span an="0" ease="0" hd="0" xreg="left" w="" h="" class="" imgs="50" fl="4">
+          <frm num="17" x="" y="-69" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="27" x="" y="-69" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+        <span an="fade-out-bottom" ease="0" hd="0" xreg="left" w="" h="" class="" imgs="50" fl="4">
+          <frm num="28" x="" y="-69" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="37" x="" y="-69" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+      <layer id="T6" type="HOLDER" holder="T5">
+        <span an="0" ease="0" hd="0" xreg="left" w="251" h="" class="" imgs="50" fl="4" mR="7">
+          <frm num="7" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="37" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+      <layer id="L16" type="SEEKBAR" hide="0" pub="1" holder="T5">
+        <span an="0" ease="0" hd="0" xreg="left" w="" h="" smedia="d_content" fl="4" yreg="top" mL="5" mT="5" mR="5" mB="5">
+          <frm num="7" x="" y="-6" o="1"/>
+          <frm num="37" x="" y="-6" o="1"/>
+        </span>
+        <dv sz="300">
+          <span xreg="left" w="" h="" fl="4" yreg="top" mL="5" mT="5" mR="" mB="5" vdp="1">
+            <frm x="" y="-6"/>
+            <frm x="" y="-6"/>
+          </span>
+        </dv>
+      </layer>
+      <layer id="L17" type="BUTTON" lb="replay_Button" hide="0" holder="T6">
+        <span an="0" ease="0" ac="ReplaySeekBar:L16;" bgI="" hd="0" xreg="right" bgA="center" bgR="no-repeat" w="49" h="49" class="" fl="4" frmt="" bnd="0" i_state="1" yreg="bottom" dp="1" afl="bottom">
+          <frm num="7" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="37" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+      <layer id="L18" type="BUTTON" lb="Prev Button" hide="0" pub="1" holder="T6">
+        <span an="0" ease="0" ac="CUSTOM:cust_autohide_onn:;BehaveAsPrev;" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="67" h="67" class="" fl="4" frmt=";s:30" bnd="1" yreg="top" dp="1" afl="bottom" mL="2" i_state="1">
+          <frm num="7" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="37" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+      <layer id="L19" type="BUTTON" lb="Next Button" hide="0" pub="1" holder="T6">
+        <span an="0" ease="0" ac="CUSTOM:cust_autohide_onn:;BehaveAsNext;" bgI="" hd="0" xreg="left" bgA="center" bgR="no-repeat" w="67" h="67" class="" fl="4" frmt=";s:30" bnd="2" yreg="top" dp="1" afl="bottom" mL="5" i_state="1" mR="2">
+          <frm num="7" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="37" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+      <layer id="L20" type="BUTTON" lb="fullscreen_Button" hide="0" holder="T6">
+        <span an="0" ease="0" ac="ToggleFullScreen:d_content;" bgI="" hd="0" xreg="right" bgA="center" bgR="no-repeat" w="49" h="49" class="" fl="4" frmt="" bnd="0" i_state="1" yreg="bottom" dp="1" afl="bottom">
+          <frm num="7" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+          <frm num="37" x="" y="" o="1" rX="0" rY="0" sX="1" sY="1"/>
+        </span>
+      </layer>
+    </clip>
+  </clips>
+</root>
